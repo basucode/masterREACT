@@ -1,12 +1,11 @@
 import './App.css';
+import Navbar from './components/layout/navbar';
 
 function App() {
   return (
     <div className="App">
-      <div className="bg-neutral-800">
-        BEGIN
-      </div>
-      <p className="text-orange-500	text-7xl">BEGIN</p>
+       {/* Navbar */}
+      <Navbar />
     </div>
   );
 }
